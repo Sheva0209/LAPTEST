@@ -1,0 +1,13 @@
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 14
+names: ['BEZEL BROKEN', 'BROKEN', 'FADED KEY', 'HARD SCRATCH', 'KEYBOARD MISSING KEY', 'MINOR CRACK', 'MINOR DENT', 'MINOR SCRATCH', 'MISSING KEYBOARD', 'MISSING PART', 'SCREEN SCRACK', 'SCREEN STAIN', 'STICKER MARKS', 'TOUCH-PAD FADED']
+
+roboflow:
+  workspace: gharavi
+  project: laptop-defects-all-sides
+  version: 9
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/gharavi/laptop-defects-all-sides/dataset/9
